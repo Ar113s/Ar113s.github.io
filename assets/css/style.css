@@ -1,0 +1,35 @@
+---
+---
+
+@import "main";
+
+/* === Your Custom Theme === */
+
+body {
+  background-color: #3A4B41 !important;
+  color: #E6CFA7 !important;
+}
+
+/* Headings */
+h1, h2, h3, h4, h5, h6 {
+  color: #E6CFA7 !important;
+}
+
+/* Links */
+a {
+  color: #E6CFA7;
+}
+
+a:hover {
+  color: #ffffff;
+}
+
+/* Sidebar */
+#sidebar {
+  background-color: #2f3e36 !important;
+}
+
+/* Cards */
+.card {
+  background-color: #44584d !important;
+}
