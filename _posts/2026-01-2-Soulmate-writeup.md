@@ -1,8 +1,9 @@
 ---
 title: "Soulmate Writeup"
-date: 2026-01-16 14:23:32
+date: 2026-01-2 14:23:32
 categories: [Writeup]
 tags: [Writeup,HTB]
+pin: false
 ---
  The soulmate is categorized as an easy machine in Hack the box which is best for beginners who are excited to sharpen the Pentesting skills.
  
