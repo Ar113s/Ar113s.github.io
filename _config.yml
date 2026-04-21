@@ -16,7 +16,7 @@ timezone:
 
 title: Ar113s Archive # the main title
 
-tagline: Blogs on indivial topics related to cybersecutry and IT # it will display as the subtitle
+tagline: Blogs on topics related to IT and ideas that interest me. # it will display as the subtitle
 
 description: >- # used by seo meta and the atom feed
    blog,writeup,htb,cybersecurity,ar113s,github
@@ -47,7 +47,7 @@ social:
 
 # Site Verification Settings
 webmaster_verifications:
-  google: # fill in your Google verification code
+  google: fWGHzQcfHkqNCfjTN_3uF4PJ7DqgJoMopW1Y2aP6JNE
   bing: # fill in your Bing verification code
   alexa: # fill in your Alexa verification code
   yandex: # fill in your Yandex verification code
