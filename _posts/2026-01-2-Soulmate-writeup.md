@@ -18,11 +18,12 @@ If you’re new to CTFs or HTB, don’t worry — I’ll explain each step clear
 Let’s get started without any further delay.
 
 ----
-## Reconnaissance
+## <span style="color:rgb(166, 0, 255)">Reconnaissance</span>
 
 - We were given an ip `10.129.23.28`. [NOTE: this IP changes every time you start the machine.]
-## Enumeration
 
+---
+## <span style="color:rgb(166, 0, 255)">Enumeration</span>
 - Let's continue by using **Nmap** to do port scan to see which ports are alive before doing deep scan.
 - After finding the open ports lets do an script and version detection scan.
 
@@ -66,7 +67,9 @@ Let’s get started without any further delay.
 ![Hack](/assets/soulmate/image-117.png)
 
 - Since Ben account contains the assets the website required to load and run the website. When we add the revshell here we can execute it in the soulmate website and get the revshell.
-## Exploitation
+
+---
+## <span style="color:rgb(166, 0, 255)">Exploitation</span>
 
 - Now lets execute the revshell from the soulmate website by trying to access the revshell.
 
@@ -77,7 +80,9 @@ Let’s get started without any further delay.
 ![Hack](/assets/soulmate/image-119.png)
 
 - Then i've used the `python3 -c 'import pty; pty.spawn("/bin/bash")'` cmd to gain an stable shell.
-## Privilege Escalation
+
+---
+## <span style="color:rgb(166, 0, 255)">Privilege Escalation</span>
 
 - After some enumeration i found that there is an **Erlang service** running on the ben user. But we need to ssh into ben first.
 - So i enumerated the erlang service files and guess what? i have found some credentials.
