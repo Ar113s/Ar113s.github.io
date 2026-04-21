@@ -18,12 +18,13 @@ If you’re new to CTFs or HTB, don’t worry — I’ll explain each step clear
 Let’s get started without any further delay.
 
 ----
-## <span style="color:rgb(166, 0, 255)">Reconnaissance</span>
+## Reconnaissance
 
 - We were given an ip `10.129.23.28`. [NOTE: this IP changes every time you start the machine.]
 
 ---
-## <span style="color:rgb(166, 0, 255)">Enumeration</span>
+## Enumeration
+
 - Let's continue by using **Nmap** to do port scan to see which ports are alive before doing deep scan.
 - After finding the open ports lets do an script and version detection scan.
 
@@ -69,7 +70,7 @@ Let’s get started without any further delay.
 - Since Ben account contains the assets the website required to load and run the website. When we add the revshell here we can execute it in the soulmate website and get the revshell.
 
 ---
-## <span style="color:rgb(166, 0, 255)">Exploitation</span>
+## Exploitation
 
 - Now lets execute the revshell from the soulmate website by trying to access the revshell.
 
@@ -82,7 +83,7 @@ Let’s get started without any further delay.
 - Then i've used the `python3 -c 'import pty; pty.spawn("/bin/bash")'` cmd to gain an stable shell.
 
 ---
-## <span style="color:rgb(166, 0, 255)">Privilege Escalation</span>
+## Privilege Escalation
 
 - After some enumeration i found that there is an **Erlang service** running on the ben user. But we need to ssh into ben first.
 - So i enumerated the erlang service files and guess what? i have found some credentials.
@@ -104,9 +105,9 @@ Let’s get started without any further delay.
 
 And with that we have found both **user and root flag** and completed the soulmate machine.
 
-This box was a great beginner-friendly experience and helped me understand the importance of proper enumeration, exploiting real-world vulnerabilities, and thinking logically during privilege escalation. From virtual host discovery to abusing CrushFTP and finally escalating privileges through Erlang, every step taught me something new.
-
-If you’re just starting out in **Hack The Box**, I highly recommend trying this machine — it covers many core concepts you’ll see again in future boxes.
-
-Thank you for taking the time to read my first write-up. I hope it helped you in some way.
+> This box was a great beginner-friendly experience and helped me understand the importance of proper enumeration, exploiting real-world vulnerabilities, and thinking logically during privilege escalation. From virtual host discovery to abusing CrushFTP and finally escalating privileges through Erlang, every step taught me something new.
+> 
+> If you’re just starting out in **Hack The Box**, I highly recommend trying this machine — it covers many core concepts you’ll see again in future boxes.
+> 
+> Thank you for taking the time to read my first write-up. I hope it helped you in some way.
 

@@ -4,7 +4,7 @@ icon: fas fa-info-circle
 order: 4
 ---
 
-Hey there, <span style="color:rgb(166, 0, 255)">I’m Ar113s</span> — a cybersecurity researcher who just likes to learn, build, and figure things out along the way.
+Hey there, I’m <font color="#ffc000">Ar113s</font> — a cybersecurity researcher who just likes to learn, build, and figure things out along the way.
 
 I created this space to share what I learn, including writeups, notes, and the projects I work on. My writing might feel a bit rough at times, as I tend to document things step-by-step mainly for my own understanding — but that’s part of the process.
 
